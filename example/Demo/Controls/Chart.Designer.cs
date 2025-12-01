@@ -1,0 +1,90 @@
+// COPYRIGHT (C) Tom. ALL RIGHTS RESERVED.
+// THE AntdUI PROJECT IS AN WINFORM LIBRARY LICENSED UNDER THE Apache-2.0 License.
+// LICENSED UNDER THE Apache License, VERSION 2.0 (THE "License")
+// YOU MAY NOT USE THIS FILE EXCEPT IN COMPLIANCE WITH THE License.
+// YOU MAY OBTAIN A COPY OF THE LICENSE AT
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING, SOFTWARE
+// DISTRIBUTED UNDER THE LICENSE IS DISTRIBUTED ON AN "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+// SEE THE LICENSE FOR THE SPECIFIC LANGUAGE GOVERNING PERMISSIONS AND
+// LIMITATIONS UNDER THE License.
+// GITCODE: https://gitcode.com/AntdUI/AntdUI
+// GITEE: https://gitee.com/AntdUI/AntdUI
+// GITHUB: https://github.com/AntdUI/AntdUI
+// CSDN: https://blog.csdn.net/v_132
+// QQ: 17379620
+
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Demo.Controls
+{
+    partial class Chart
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            header1 = new AntdUI.PageHeader();
+            panel_main = new System.Windows.Forms.Panel();
+            SuspendLayout();
+            // 
+            // header1
+            // 
+            header1.Description = "可视化图表库。";
+            header1.Dock = DockStyle.Top;
+            header1.Font = new Font("Microsoft YaHei UI", 12F);
+            header1.LocalizationDescription = "Chart.Description";
+            header1.LocalizationText = "Chart.Text";
+            header1.Location = new Point(0, 0);
+            header1.Name = "header1";
+            header1.Padding = new Padding(0, 0, 0, 10);
+            header1.Size = new Size(800, 74);
+            header1.TabIndex = 0;
+            header1.Text = "Chart 图表控件";
+            header1.UseTitleFont = true;
+            // 
+            // panel_main
+            // 
+            panel_main.Dock = DockStyle.Fill;
+            panel_main.Location = new Point(0, 74);
+            panel_main.Name = "panel_main";
+            panel_main.Size = new Size(800, 526);
+            panel_main.TabIndex = 1;
+            // 
+            // Chart
+            // 
+            Controls.Add(panel_main);
+            Controls.Add(header1);
+            Name = "Chart";
+            Size = new Size(800, 600);
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private AntdUI.PageHeader header1;
+        private System.Windows.Forms.Panel panel_main;
+    }
+}
