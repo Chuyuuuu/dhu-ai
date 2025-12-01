@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\..\\src\\AntdUI\\AntdUI.csproj" />
+    <ProjectReference Include="..\\..\\src\\AntdUI.EmojiFluentFlat\\AntdUI.EmojiFluentFlat.csproj" />
+  </ItemGroup>
+</Project>
