@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<OutputType>WinExe</OutputType>
-		<TargetFramework>net9.0-windows</TargetFramework>
-		<UseWindowsForms>true</UseWindowsForms>
-		<ApplicationIcon>icon.ico</ApplicationIcon>
-		<ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
-		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-	</PropertyGroup>
+        <PropertyGroup>
+                <OutputType>WinExe</OutputType>
+                <TargetFramework>net8.0-windows</TargetFramework>
+                <UseWindowsForms>true</UseWindowsForms>
+                <ApplicationIcon>icon.ico</ApplicationIcon>
+                <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+                <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        </PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)' == 'Release'">
 		<WindowsSupportedOSPlatformVersion>5.1</WindowsSupportedOSPlatformVersion>
